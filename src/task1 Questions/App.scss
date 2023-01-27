@@ -1,0 +1,117 @@
+body{
+    background: lightgray;
+}
+.main{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    border: 3px solid gray;
+    height: 500px;
+    width: 550px;
+}
+.q{
+    text-align: center;
+    position: relative;
+    top: -10%;
+    left: 0;
+    border-bottom: 3px solid gray;
+    height: initial;
+    width: initial;
+    font-size: 40px;
+    font-weight: 800;
+}
+.a{
+    position: relative;
+    top: 5%;
+    left: 0;
+    height: initial;
+    width: initial;
+    input{
+        position: relative;
+        left: 80%;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+span{
+    position:absolute;
+    left: 10%;
+    
+    height: 0px;
+    font-size: 30px;
+} 
+.pa{ 
+    p{
+        background-color: darkcyan;
+    color: white;
+    font-size: 30px;
+    }
+    input{
+        position:absolute;
+        left: 90%;
+            
+    }
+}
+button{
+    position: relative;
+    top:23.5%;
+    
+    height: 10%;
+    width: 100%;
+    font-size: 30px;
+    border: none;
+    background: lightslategrey;
+}
+.tf{
+    position: absolute;
+    top: 86%;
+    left: 38%;
+    width: 20%;
+    height: 10%;
+    
+    padding-left: 180px;
+    font-size: 40px;
+}
+ANS{
+    width: 20%;
+    padding-left: 40%;
+    font-size: 40px;
+}
+.nt{
+    color: green;
+    @extend ANS
+}
+.nf{
+    color: red;
+   @extend ANS
+};
+.addQ{
+    
+    input{
+        font-size: 30px;
+        margin-left: 35%;
+        text-align: center  ;
+        background: none;
+        border: none;
+        outline:  none;
+        border-bottom:2px solid ;
+    }
+}
+.actionBtns{
+    margin-top: 20px;
+    
+}
+.usersTable{
+    th,td{width: 20%;
+        text-align: center;
+        font-size: 25px;
+    }
+th{
+    background-color: rgb(112, 112, 255);
+}
+td{
+    background-color: rgb(56, 53, 110);
+    color: white;
+}
+}
