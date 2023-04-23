@@ -1,0 +1,44 @@
+body{background-color: rgb(66, 66, 66);
+    margin: 0;color: white;
+    }
+    div{
+        font-size: 30px;
+    }
+    .appbar{
+        width: 100%;
+        background-color: darkgray;
+    color: #000;
+    }
+    .ico{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .search{
+        width:100%;
+        background-color: darkgray;
+        color: #000;
+    }
+    .t{
+        margin: 0;
+        padding: 0;
+        height: 0;
+       display: inline-flex;
+    width: 90%;
+       
+    }
+    .t p:nth-child(1){background-color: rgb(66, 66, 66);position: relative;
+    top: 0;left: 0;width: 30%;padding-right: 50%;color: #000;
+    }
+    .t p:nth-child(2){
+        position: relative;
+    top: 0;left: 0;
+    margin-right: 20px;
+    background-color: darkgray;
+    }
+    table{
+        width: 90%;
+    }
+    th{
+        width: 10%;
+    }
